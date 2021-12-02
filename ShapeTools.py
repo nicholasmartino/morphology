@@ -2,7 +2,6 @@ import itertools
 import gc
 import itertools
 import math
-# import skbio.diversity as div
 import sys
 import time
 
@@ -18,10 +17,6 @@ import matplotlib
 matplotlib.use('TkAgg')
 
 plt.show()
-
-sys.path.insert(1, f"D:/Google Drive/Python/morphology")
-sys.path.insert(1, '/Users/nicholasmartino/Google Drive/Python/morphology')
-from Patterns import Skeleton
 
 
 def azimuth(ln):
